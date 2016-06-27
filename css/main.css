@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* Site Colors
+
+#1a446c - blue gray
+#689dc1 - light blue
+#d4e6f4 - very light blue
+#eee4b9 - light tan
+#8d0d19 - burgundy
+*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+img {
+	border:none;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.wrap {
+	width:900px;
+	margin:0 auto;
+}
+
+.header {
+	background-color:#1a446c;
+	color:#d4e6f4;
+	font-size:18px;
+	font-weight:bold;
+	padding:25px;
+}
+.selected {
+	font-weight:bold;
+}
+.sidebar {
+	background-color:#8d0d19;
+	color:#eee4b9;
+	width:300px;
+	float:left;
+	min-height:500px;
+}
+.sidebar a {
+	text-decoration:none;
+	color:#eee4b9;
+}
+.sidebar ul.subjects {
+	list-style:none;
+	padding:10px 25px 0;
+}
+
+.sidebar ul.pages {
+	padding:0 25px;
+	list-style:disc;
+}
+.sidebar p {
+	margin-top:25px;
+}
+.main{
+	color:#8d0d19;
+	background-color:#eee4b9;
+	width:600px;
+	float:right;
+	min-height:500px;
+}
+form {
+	padding:25px;
+}
+label {
+	padding-left:25px;
+}
+fieldset {
+	border:none;
+}
+.footer {
+	background-color:#1a446c;
+	color:#d4e6f4;
+	font-size:10px;
+	padding:5px;
+}
